@@ -1,0 +1,159 @@
+2020-12-29 20:18:01.024  INFO 15960 --- [restartedMain] com.zdj.blog.BlogApplication             : Starting BlogApplication on LAPTOP-THL467DQ with PID 15960 (D:\IdeaProjects\blog\target\classes started by hp in D:\IdeaProjects\blog)
+2020-12-29 20:18:01.029 DEBUG 15960 --- [restartedMain] com.zdj.blog.BlogApplication             : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-12-29 20:18:01.030  INFO 15960 --- [restartedMain] com.zdj.blog.BlogApplication             : The following profiles are active: dev
+2020-12-29 20:18:01.123  INFO 15960 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-29 20:18:01.124  INFO 15960 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-29 20:18:02.890  INFO 15960 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-29 20:18:03.063  INFO 15960 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 164ms. Found 5 JPA repository interfaces.
+2020-12-29 20:18:04.695  INFO 15960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-29 20:18:04.721  INFO 15960 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-29 20:18:04.721  INFO 15960 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-29 20:18:04.835  INFO 15960 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-29 20:18:04.835  INFO 15960 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3711 ms
+2020-12-29 20:18:05.179  INFO 15960 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-29 20:18:05.328  INFO 15960 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-29 20:18:06.394  WARN 15960 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-29 20:18:06.431  INFO 15960 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-12-29 20:18:07.038  INFO 15960 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-12-29 20:18:07.048  INFO 15960 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-29 20:18:07.317  INFO 15960 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-29 20:18:07.679  INFO 15960 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-29 20:18:07.854  INFO 15960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-29 20:18:07.857  INFO 15960 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-12-29 20:18:09.194  INFO 15960 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-29 20:18:09.259  INFO 15960 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-12-29 20:18:10.822  INFO 15960 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-29 20:18:10.847  INFO 15960 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-29 20:18:11.820  INFO 15960 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-12-29 20:18:11.851  INFO 15960 --- [restartedMain] com.zdj.blog.BlogApplication             : Started BlogApplication in 12.581 seconds (JVM running for 16.99)
+2020-12-29 20:22:16.512  INFO 15960 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-29 20:22:16.512  INFO 15960 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-29 20:22:16.529  INFO 15960 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2020-12-29 20:22:16.642  INFO 15960 --- [http-nio-8080-exec-2] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.zdj.blog.web.IndexController,index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-12-29 20:22:16.987  WARN 15960 --- [http-nio-8080-exec-2] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-12-29 20:22:17.225  WARN 15960 --- [http-nio-8080-exec-2] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-12-29 20:22:17.266  INFO 15960 --- [http-nio-8080-exec-2] com.zdj.blog.aspect.LogAspect            : Result:index
+2020-12-29 20:22:17.267  INFO 15960 --- [http-nio-8080-exec-2] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:22:19.385  INFO 15960 --- [http-nio-8080-exec-5] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zdj.blog.web.IndexController,newblogs', args=[{}]}
+2020-12-29 20:22:19.395  INFO 15960 --- [http-nio-8080-exec-5] com.zdj.blog.aspect.LogAspect            : Result:_fragments :: newblogList
+2020-12-29 20:22:19.395  INFO 15960 --- [http-nio-8080-exec-5] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:22:30.858  INFO 15960 --- [http-nio-8080-exec-8] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/blog/21', ip='127.0.0.1', classMethod='com.zdj.blog.web.IndexController,blog', args=[21, {}]}
+2020-12-29 20:22:31.058  INFO 15960 --- [http-nio-8080-exec-8] com.zdj.blog.aspect.LogAspect            : Result:blog
+2020-12-29 20:22:31.059  INFO 15960 --- [http-nio-8080-exec-8] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:22:31.744  INFO 15960 --- [http-nio-8080-exec-2] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zdj.blog.web.IndexController,newblogs', args=[{}]}
+2020-12-29 20:22:31.757  INFO 15960 --- [http-nio-8080-exec-2] com.zdj.blog.aspect.LogAspect            : Result:_fragments :: newblogList
+2020-12-29 20:22:31.757  INFO 15960 --- [http-nio-8080-exec-2] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:22:31.889  INFO 15960 --- [http-nio-8080-exec-10] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/comments/21', ip='127.0.0.1', classMethod='com.zdj.blog.web.CommentController,comments', args=[21, {}]}
+2020-12-29 20:22:32.017  INFO 15960 --- [http-nio-8080-exec-10] com.zdj.blog.aspect.LogAspect            : Result:blog :: commentList
+2020-12-29 20:22:32.018  INFO 15960 --- [http-nio-8080-exec-10] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:22:38.628  INFO 15960 --- [http-nio-8080-exec-8] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/types/-1', ip='127.0.0.1', classMethod='com.zdj.blog.web.TypeShowController,types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-12-29 20:22:38.661  INFO 15960 --- [http-nio-8080-exec-8] com.zdj.blog.aspect.LogAspect            : Result:types
+2020-12-29 20:22:38.661  INFO 15960 --- [http-nio-8080-exec-8] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:22:39.258  INFO 15960 --- [http-nio-8080-exec-6] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zdj.blog.web.IndexController,newblogs', args=[{}]}
+2020-12-29 20:22:39.266  INFO 15960 --- [http-nio-8080-exec-6] com.zdj.blog.aspect.LogAspect            : Result:_fragments :: newblogList
+2020-12-29 20:22:39.266  INFO 15960 --- [http-nio-8080-exec-6] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:22:40.400  INFO 15960 --- [http-nio-8080-exec-5] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/types/3', ip='127.0.0.1', classMethod='com.zdj.blog.web.TypeShowController,types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 3, {}]}
+2020-12-29 20:22:40.410  INFO 15960 --- [http-nio-8080-exec-5] com.zdj.blog.aspect.LogAspect            : Result:types
+2020-12-29 20:22:40.411  INFO 15960 --- [http-nio-8080-exec-5] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:22:40.780  INFO 15960 --- [http-nio-8080-exec-4] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zdj.blog.web.IndexController,newblogs', args=[{}]}
+2020-12-29 20:22:40.787  INFO 15960 --- [http-nio-8080-exec-4] com.zdj.blog.aspect.LogAspect            : Result:_fragments :: newblogList
+2020-12-29 20:22:40.787  INFO 15960 --- [http-nio-8080-exec-4] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:22:41.636  INFO 15960 --- [http-nio-8080-exec-2] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/types/19', ip='127.0.0.1', classMethod='com.zdj.blog.web.TypeShowController,types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 19, {}]}
+2020-12-29 20:22:41.646  INFO 15960 --- [http-nio-8080-exec-2] com.zdj.blog.aspect.LogAspect            : Result:types
+2020-12-29 20:22:41.646  INFO 15960 --- [http-nio-8080-exec-2] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:22:42.100  INFO 15960 --- [http-nio-8080-exec-10] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zdj.blog.web.IndexController,newblogs', args=[{}]}
+2020-12-29 20:22:42.107  INFO 15960 --- [http-nio-8080-exec-10] com.zdj.blog.aspect.LogAspect            : Result:_fragments :: newblogList
+2020-12-29 20:22:42.107  INFO 15960 --- [http-nio-8080-exec-10] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:22:42.777  INFO 15960 --- [http-nio-8080-exec-6] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/types/1', ip='127.0.0.1', classMethod='com.zdj.blog.web.TypeShowController,types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 1, {}]}
+2020-12-29 20:22:42.788  INFO 15960 --- [http-nio-8080-exec-6] com.zdj.blog.aspect.LogAspect            : Result:types
+2020-12-29 20:22:42.788  INFO 15960 --- [http-nio-8080-exec-6] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:22:43.190  INFO 15960 --- [http-nio-8080-exec-4] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zdj.blog.web.IndexController,newblogs', args=[{}]}
+2020-12-29 20:22:43.199  INFO 15960 --- [http-nio-8080-exec-4] com.zdj.blog.aspect.LogAspect            : Result:_fragments :: newblogList
+2020-12-29 20:22:43.199  INFO 15960 --- [http-nio-8080-exec-4] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:22:45.134  INFO 15960 --- [http-nio-8080-exec-9] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/types/4', ip='127.0.0.1', classMethod='com.zdj.blog.web.TypeShowController,types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 4, {}]}
+2020-12-29 20:22:45.142  INFO 15960 --- [http-nio-8080-exec-9] com.zdj.blog.aspect.LogAspect            : Result:types
+2020-12-29 20:22:45.142  INFO 15960 --- [http-nio-8080-exec-9] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:22:45.538  INFO 15960 --- [http-nio-8080-exec-2] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zdj.blog.web.IndexController,newblogs', args=[{}]}
+2020-12-29 20:22:45.546  INFO 15960 --- [http-nio-8080-exec-2] com.zdj.blog.aspect.LogAspect            : Result:_fragments :: newblogList
+2020-12-29 20:22:45.547  INFO 15960 --- [http-nio-8080-exec-2] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:22:47.334  INFO 15960 --- [http-nio-8080-exec-10] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/types/5', ip='127.0.0.1', classMethod='com.zdj.blog.web.TypeShowController,types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 5, {}]}
+2020-12-29 20:22:47.343  INFO 15960 --- [http-nio-8080-exec-10] com.zdj.blog.aspect.LogAspect            : Result:types
+2020-12-29 20:22:47.345  INFO 15960 --- [http-nio-8080-exec-10] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:22:47.797  INFO 15960 --- [http-nio-8080-exec-3] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zdj.blog.web.IndexController,newblogs', args=[{}]}
+2020-12-29 20:22:47.804  INFO 15960 --- [http-nio-8080-exec-3] com.zdj.blog.aspect.LogAspect            : Result:_fragments :: newblogList
+2020-12-29 20:22:47.805  INFO 15960 --- [http-nio-8080-exec-3] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:22:49.098  INFO 15960 --- [http-nio-8080-exec-8] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/types/2', ip='127.0.0.1', classMethod='com.zdj.blog.web.TypeShowController,types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 2, {}]}
+2020-12-29 20:22:49.107  INFO 15960 --- [http-nio-8080-exec-8] com.zdj.blog.aspect.LogAspect            : Result:types
+2020-12-29 20:22:49.107  INFO 15960 --- [http-nio-8080-exec-8] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:22:49.519  INFO 15960 --- [http-nio-8080-exec-6] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zdj.blog.web.IndexController,newblogs', args=[{}]}
+2020-12-29 20:22:49.528  INFO 15960 --- [http-nio-8080-exec-6] com.zdj.blog.aspect.LogAspect            : Result:_fragments :: newblogList
+2020-12-29 20:22:49.529  INFO 15960 --- [http-nio-8080-exec-6] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:22:49.898  INFO 15960 --- [http-nio-8080-exec-4] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/types/3', ip='127.0.0.1', classMethod='com.zdj.blog.web.TypeShowController,types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 3, {}]}
+2020-12-29 20:22:49.905  INFO 15960 --- [http-nio-8080-exec-4] com.zdj.blog.aspect.LogAspect            : Result:types
+2020-12-29 20:22:49.905  INFO 15960 --- [http-nio-8080-exec-4] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:22:50.293  INFO 15960 --- [http-nio-8080-exec-5] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zdj.blog.web.IndexController,newblogs', args=[{}]}
+2020-12-29 20:22:50.300  INFO 15960 --- [http-nio-8080-exec-5] com.zdj.blog.aspect.LogAspect            : Result:_fragments :: newblogList
+2020-12-29 20:22:50.300  INFO 15960 --- [http-nio-8080-exec-5] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:22:51.521  INFO 15960 --- [http-nio-8080-exec-3] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/tags/-1', ip='127.0.0.1', classMethod='com.zdj.blog.web.TagShowController,tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-12-29 20:22:51.557  INFO 15960 --- [http-nio-8080-exec-3] com.zdj.blog.aspect.LogAspect            : Result:tags
+2020-12-29 20:22:51.557  INFO 15960 --- [http-nio-8080-exec-3] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:22:52.017  INFO 15960 --- [http-nio-8080-exec-1] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zdj.blog.web.IndexController,newblogs', args=[{}]}
+2020-12-29 20:22:52.027  INFO 15960 --- [http-nio-8080-exec-1] com.zdj.blog.aspect.LogAspect            : Result:_fragments :: newblogList
+2020-12-29 20:22:52.027  INFO 15960 --- [http-nio-8080-exec-1] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:22:56.275  INFO 15960 --- [http-nio-8080-exec-10] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/tags/20', ip='127.0.0.1', classMethod='com.zdj.blog.web.TagShowController,tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 20, {}]}
+2020-12-29 20:22:56.286  INFO 15960 --- [http-nio-8080-exec-10] com.zdj.blog.aspect.LogAspect            : Result:tags
+2020-12-29 20:22:56.286  INFO 15960 --- [http-nio-8080-exec-10] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:22:56.677  INFO 15960 --- [http-nio-8080-exec-6] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zdj.blog.web.IndexController,newblogs', args=[{}]}
+2020-12-29 20:22:56.684  INFO 15960 --- [http-nio-8080-exec-6] com.zdj.blog.aspect.LogAspect            : Result:_fragments :: newblogList
+2020-12-29 20:22:56.684  INFO 15960 --- [http-nio-8080-exec-6] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:22:57.815  INFO 15960 --- [http-nio-8080-exec-2] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/tags/15', ip='127.0.0.1', classMethod='com.zdj.blog.web.TagShowController,tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 15, {}]}
+2020-12-29 20:22:57.824  INFO 15960 --- [http-nio-8080-exec-2] com.zdj.blog.aspect.LogAspect            : Result:tags
+2020-12-29 20:22:57.825  INFO 15960 --- [http-nio-8080-exec-2] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:22:58.192  INFO 15960 --- [http-nio-8080-exec-3] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zdj.blog.web.IndexController,newblogs', args=[{}]}
+2020-12-29 20:22:58.200  INFO 15960 --- [http-nio-8080-exec-3] com.zdj.blog.aspect.LogAspect            : Result:_fragments :: newblogList
+2020-12-29 20:22:58.200  INFO 15960 --- [http-nio-8080-exec-3] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:22:59.360  INFO 15960 --- [http-nio-8080-exec-1] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.zdj.blog.web.ArchiveShowController,archives', args=[{}]}
+2020-12-29 20:22:59.467  INFO 15960 --- [http-nio-8080-exec-1] com.zdj.blog.aspect.LogAspect            : Result:archives
+2020-12-29 20:22:59.468  INFO 15960 --- [http-nio-8080-exec-1] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:22:59.863  INFO 15960 --- [http-nio-8080-exec-8] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zdj.blog.web.IndexController,newblogs', args=[{}]}
+2020-12-29 20:22:59.868  INFO 15960 --- [http-nio-8080-exec-8] com.zdj.blog.aspect.LogAspect            : Result:_fragments :: newblogList
+2020-12-29 20:22:59.869  INFO 15960 --- [http-nio-8080-exec-8] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:23:05.340  INFO 15960 --- [http-nio-8080-exec-6] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/about', ip='127.0.0.1', classMethod='com.zdj.blog.web.AboutShowController,about', args=[]}
+2020-12-29 20:23:05.343  INFO 15960 --- [http-nio-8080-exec-6] com.zdj.blog.aspect.LogAspect            : Result:about
+2020-12-29 20:23:05.343  INFO 15960 --- [http-nio-8080-exec-6] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:23:05.750  INFO 15960 --- [http-nio-8080-exec-7] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zdj.blog.web.IndexController,newblogs', args=[{}]}
+2020-12-29 20:23:05.758  INFO 15960 --- [http-nio-8080-exec-7] com.zdj.blog.aspect.LogAspect            : Result:_fragments :: newblogList
+2020-12-29 20:23:05.758  INFO 15960 --- [http-nio-8080-exec-7] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:23:13.840  INFO 15960 --- [http-nio-8080-exec-9] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.zdj.blog.web.IndexController,index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-12-29 20:23:13.855  INFO 15960 --- [http-nio-8080-exec-9] com.zdj.blog.aspect.LogAspect            : Result:index
+2020-12-29 20:23:13.855  INFO 15960 --- [http-nio-8080-exec-9] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:23:14.280  INFO 15960 --- [http-nio-8080-exec-1] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zdj.blog.web.IndexController,newblogs', args=[{}]}
+2020-12-29 20:23:14.289  INFO 15960 --- [http-nio-8080-exec-1] com.zdj.blog.aspect.LogAspect            : Result:_fragments :: newblogList
+2020-12-29 20:23:14.289  INFO 15960 --- [http-nio-8080-exec-1] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:23:18.630  INFO 15960 --- [http-nio-8080-exec-8] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/blog/21', ip='127.0.0.1', classMethod='com.zdj.blog.web.IndexController,blog', args=[21, {}]}
+2020-12-29 20:23:18.638  INFO 15960 --- [http-nio-8080-exec-8] com.zdj.blog.aspect.LogAspect            : Result:blog
+2020-12-29 20:23:18.639  INFO 15960 --- [http-nio-8080-exec-8] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:23:19.089  INFO 15960 --- [http-nio-8080-exec-3] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zdj.blog.web.IndexController,newblogs', args=[{}]}
+2020-12-29 20:23:19.096  INFO 15960 --- [http-nio-8080-exec-3] com.zdj.blog.aspect.LogAspect            : Result:_fragments :: newblogList
+2020-12-29 20:23:19.097  INFO 15960 --- [http-nio-8080-exec-3] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:23:19.186  INFO 15960 --- [http-nio-8080-exec-2] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/comments/21', ip='127.0.0.1', classMethod='com.zdj.blog.web.CommentController,comments', args=[21, {}]}
+2020-12-29 20:23:19.201  INFO 15960 --- [http-nio-8080-exec-2] com.zdj.blog.aspect.LogAspect            : Result:blog :: commentList
+2020-12-29 20:23:19.201  INFO 15960 --- [http-nio-8080-exec-2] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:23:22.053  INFO 15960 --- [http-nio-8080-exec-9] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/about', ip='127.0.0.1', classMethod='com.zdj.blog.web.AboutShowController,about', args=[]}
+2020-12-29 20:23:22.054  INFO 15960 --- [http-nio-8080-exec-9] com.zdj.blog.aspect.LogAspect            : Result:about
+2020-12-29 20:23:22.054  INFO 15960 --- [http-nio-8080-exec-9] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:23:22.431  INFO 15960 --- [http-nio-8080-exec-10] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zdj.blog.web.IndexController,newblogs', args=[{}]}
+2020-12-29 20:23:22.437  INFO 15960 --- [http-nio-8080-exec-10] com.zdj.blog.aspect.LogAspect            : Result:_fragments :: newblogList
+2020-12-29 20:23:22.437  INFO 15960 --- [http-nio-8080-exec-10] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:23:31.347  INFO 15960 --- [http-nio-8080-exec-1] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/search', ip='127.0.0.1', classMethod='com.zdj.blog.web.IndexController,search', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 在读证明, {}]}
+2020-12-29 20:23:31.352  INFO 15960 --- [http-nio-8080-exec-1] com.zdj.blog.aspect.LogAspect            : Result:search
+2020-12-29 20:23:31.352  INFO 15960 --- [http-nio-8080-exec-1] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:23:40.951  INFO 15960 --- [http-nio-8080-exec-5] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/blog/21', ip='127.0.0.1', classMethod='com.zdj.blog.web.IndexController,blog', args=[21, {}]}
+2020-12-29 20:23:40.963  INFO 15960 --- [http-nio-8080-exec-5] com.zdj.blog.aspect.LogAspect            : Result:blog
+2020-12-29 20:23:40.963  INFO 15960 --- [http-nio-8080-exec-5] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:23:41.386  INFO 15960 --- [http-nio-8080-exec-10] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zdj.blog.web.IndexController,newblogs', args=[{}]}
+2020-12-29 20:23:41.392  INFO 15960 --- [http-nio-8080-exec-10] com.zdj.blog.aspect.LogAspect            : Result:_fragments :: newblogList
+2020-12-29 20:23:41.392  INFO 15960 --- [http-nio-8080-exec-10] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
+2020-12-29 20:23:41.492  INFO 15960 --- [http-nio-8080-exec-2] com.zdj.blog.aspect.LogAspect            : Request:{url='http://127.0.0.1:8080/comments/21', ip='127.0.0.1', classMethod='com.zdj.blog.web.CommentController,comments', args=[21, {}]}
+2020-12-29 20:23:41.514  INFO 15960 --- [http-nio-8080-exec-2] com.zdj.blog.aspect.LogAspect            : Result:blog :: commentList
+2020-12-29 20:23:41.514  INFO 15960 --- [http-nio-8080-exec-2] com.zdj.blog.aspect.LogAspect            : --------doAfter---------
